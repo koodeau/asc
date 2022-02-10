@@ -11,7 +11,7 @@
    */
   import { setContext } from "svelte";
   import { cacheKey } from "../keys";
-  import { Appwrite } from "$lib/appwrite";
+  import Appwrite from "$lib/appwrite";
   import { currentUser, documents } from "../stores";
 
   /**

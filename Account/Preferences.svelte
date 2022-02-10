@@ -10,7 +10,7 @@
    */
   import { createEventDispatcher } from "svelte";
   import { active } from "../stores";
-  import { Appwrite } from "$lib/appwrite";
+  import Appwrite from "$lib/appwrite";
 
   const dispatch = createEventDispatcher();
   const fetchPreferences = async () => {

@@ -1,4 +1,4 @@
-import { Appwrite } from "$lib/appwrite";
+import Appwrite from "$lib/appwrite";
 import { writable, get } from "svelte/store";
 
 export class DocumentsStore {

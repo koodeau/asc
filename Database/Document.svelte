@@ -13,7 +13,7 @@
   import { cacheKey } from "../keys";
   import { createEventDispatcher } from "svelte";
   import { documents } from "../stores";
-  import { Appwrite } from "$lib/appwrite";
+  import Appwrite from "$lib/appwrite";
 
   const dispatch = createEventDispatcher();
   /**

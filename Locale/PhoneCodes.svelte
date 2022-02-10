@@ -7,7 +7,7 @@
    * }}}
    * @slot {{ error: object }} error
    */
-   import { Appwrite } from "$lib/appwrite";
+   import Appwrite from "$lib/appwrite";
 
   const fetchPhoneCodes = () => Appwrite.locale.getCountriesPhones();
 

@@ -1,5 +1,5 @@
 <script>
-  import { Appwrite } from "$lib/appwrite";
+  import Appwrite from "$lib/appwrite";
 
   export let text;
   export let size = 400;

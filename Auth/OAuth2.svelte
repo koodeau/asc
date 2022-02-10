@@ -4,7 +4,7 @@
    * authorize: (provider: string, success: string, failure: string) => Promise<object>;
    * }}
    */
-  import { Appwrite } from "$lib/appwrite";
+  import Appwrite from "$lib/appwrite";
 
   export let provider;
   export let success;

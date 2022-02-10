@@ -9,7 +9,7 @@
    * }}}
    * @slot {{ error: object }} error
    */
-   import { Appwrite } from "$lib/appwrite";
+   import Appwrite from "$lib/appwrite";
 
   export let id;
   export let search = "";
